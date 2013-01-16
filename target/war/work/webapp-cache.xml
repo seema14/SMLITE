@@ -1,0 +1,30 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>spendmgmt/css/bootstrap.min.css</string>
+          <string>spendmgmt/index.html</string>
+          <string>spendmgmt/js/bootstrap.min.js</string>
+          <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/log4j.properties</string>
+          <string>WEB-INF/classes/org/smlite/entity/VendorEntity.class</string>
+          <string>WEB-INF/classes/org/smlite/rest/providers/VendorEntityProvider.class</string>
+          <string>WEB-INF/classes/org/smlite/servlet/SMLiteDirectServlet.class</string>
+          <string>WEB-INF/classes/org/smlite/util/SMLiteUtil.class</string>
+          <string>WEB-INF/lib/servlet-api-2.4.jar</string>
+          <string>WEB-INF/lib/entitybus-api-1.0.8.jar</string>
+          <string>WEB-INF/lib/entitybus-impl-1.0.8.jar</string>
+          <string>WEB-INF/lib/entitybus-utils-1.0.8.jar</string>
+          <string>WEB-INF/lib/reflectutils-0.9.11.jar</string>
+          <string>WEB-INF/lib/entitybus-rest-1.0.8.jar</string>
+          <string>WEB-INF/lib/commons-httpclient-3.1.jar</string>
+          <string>WEB-INF/lib/commons-logging-1.1.1.jar</string>
+          <string>WEB-INF/lib/commons-codec-1.2.jar</string>
+          <string>WEB-INF/lib/mysql-connector-java-5.1.22.jar</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+</webapp-structure>
