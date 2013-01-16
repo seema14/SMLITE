@@ -121,7 +121,7 @@ public class VendorEntityProvider extends AbstractAutoRegisteringProvider implem
 			while (rs.next()) {
 				String queryStr= "UPDATE SMLite.Vendor set name='"+passedEntity.getName()+"', " +
 				"poCreated="+passedEntity.isPoCreated()+", poDetails='"+passedEntity.getPoDetails()+"', poNumber='"+passedEntity.getPoNumber()+"', " +
-				"type='"+passedEntity.getType() +" poAmount='"+passedEntity.getPoAmount() +"' where id="+ref.getId();
+				"type='"+passedEntity.getType() +"', poAmount='"+passedEntity.getPoAmount() +"' where id="+ref.getId();
 				System.out.println("queryStr "+queryStr);
 				stmt.executeUpdate(queryStr);
 				
@@ -151,7 +151,7 @@ public class VendorEntityProvider extends AbstractAutoRegisteringProvider implem
 		try {
 			stmt=conn.createStatement();
 
-			rs = stmt.executeQuery("Select id, name, poCreated ,poNumber, poDetails, type from SMLite.Vendor where id="+ref.getId());
+			rs = stmt.executeQuery("Select * from SMLite.Vendor where id="+ref.getId());
 			while (rs.next()) {
 				String id = (String) rs.getString(VendorEntity.ID);
 				String name = (String) rs.getString(VendorEntity.NAME);

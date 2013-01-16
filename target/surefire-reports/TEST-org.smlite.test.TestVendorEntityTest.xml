@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.042" errors="0" skipped="0" tests="3" name="org.smlite.test.TestVendorEntityTest">
+<testsuite failures="0" time="0.049" errors="0" skipped="0" tests="3" name="org.smlite.test.TestVendorEntityTest">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="C:/MEMS/m2_repo"/>
@@ -23,13 +23,14 @@
     <property name="user.language" value="en"/>
     <property name="env.windows_tracing_flags" value="3"/>
     <property name="sun.boot.library.path" value="C:\Users\semishra\AppData\Local\Surf\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.020\jre\bin"/>
-    <property name="classworlds.conf" value="C:\Users\semishra\Workspaces\nmtg_platform_comp\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf2955568713223326086.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\semishra\Workspaces\nmtg_platform_comp\.metadata\.plugins\org.maven.ide.eclipse\launches\m2conf2634975879128582548.tmp"/>
     <property name="env.m2_home" value="C:\Program Files (x86)\apache-maven-2.2.1"/>
     <property name="java.version" value="1.6.0_20"/>
     <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
     <property name="user.timezone" value=""/>
     <property name="env.TEMP" value="C:\Users\semishra\AppData\Local\Temp"/>
     <property name="sun.arch.data.model" value="32"/>
+    <property name="env.SSH_AGENT_PID" value="6924"/>
     <property name="java.endorsed.dirs" value="C:\Users\semishra\AppData\Local\Surf\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.020\jre\lib\endorsed"/>
     <property name="env.PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="env.VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
@@ -92,6 +93,7 @@
     <property name="env.WF_RESOURCES" value="C:\product\WF\RES\WFus.RES"/>
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/ssh-dOTZsT1860/agent.1860"/>
     <property name="env.SystemRoot" value="C:\Windows"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
@@ -112,7 +114,7 @@
     <property name="java.specification.version" value="1.6"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase time="0.019" classname="org.smlite.test.TestVendorEntityTest" name="testTestSetName"/>
+  <testcase time="0.023" classname="org.smlite.test.TestVendorEntityTest" name="testTestSetName"/>
   <testcase time="0" classname="org.smlite.test.TestVendorEntityTest" name="testTestSetPoDetails"/>
   <testcase time="0" classname="org.smlite.test.TestVendorEntityTest" name="testTestCopyTo"/>
 </testsuite>
